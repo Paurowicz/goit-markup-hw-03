@@ -1,10 +1,29 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+.container {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  width: 1600px;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+}
 
 .menu {
-  display: inline;
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0px;
 }
 
 .webstudio {
@@ -15,6 +34,10 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
+  display: flex;
+  padding: 24px 0px 25px 0px;
+  margin-left: 215px;
+  margin-right: 94px;
 }
 
 .studio-h {
@@ -27,11 +50,14 @@ body {
 
 .links {
   text-decoration: none;
+  list-style-type: none;
   color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  padding: 32px 53px 32px 0px;
 }
 
 .mail-h {
@@ -41,6 +67,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding: 32px 50px 32px 0px;
+  margin-left: 300px;
 }
 
 .tel {
@@ -50,6 +78,9 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+  padding: 32px 0px 32px 0px;
+
+  margin-right: 227px;
 }
 
 .tel:hover {
@@ -66,14 +97,22 @@ body {
 
 .s1 {
   background: #2f303a;
+  width: 1600px;
+  height: 600px;
 }
 
 .h1 {
+  width: 696px;
+  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 452px;
+  padding-top: 200px;
 }
 
 .Lorem-P {
@@ -88,10 +127,65 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.ul-main1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  height: 101px;
+  list-style-type: none;
+  margin-top: 94px;
+  padding-left: 215px;
+}
+
+.sec3 {
+  width: 1170px;
+  height: 386px;
+  padding-left: 215px;
+}
+
+.ul-main2 {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-left: 0px;
+}
+
+.team {
+  padding-top: 94px;
+  margin-top: 94px;
+  margin-left: 695px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .ul-main {
   list-style-type: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  height: 368px;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-left: 0px;
+}
+
+.img-sec3 {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .job {
@@ -99,6 +193,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .name {
@@ -106,6 +201,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .button-main-page {
@@ -115,6 +211,9 @@ body {
   width: 200px;
   height: 50px;
   cursor: pointer;
+  margin-left: 700px;
+
+  margin-top: 30px;
 }
 
 .button-text {
@@ -219,4 +318,22 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+  margin-left: 409px;
+}
+
+.sec4 {
+  width: 1600px;
+  height: 648px;
+  background: #f5f4fa;
+}
+
+.webstudio-f {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
 }
