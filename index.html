@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link href="CSS/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,47 +19,38 @@
     />
   </head>
   <body>
-    <header class="container" >
-      <div class="header">
-        
-        <ul class="menu"> 
-        <li><a class="webstudio" href="index.html"
-            >Web<span class="studio-h">Studio</span></a
-          ></li>
-          
-            <li><a class="links" href="#">Agencja</a></li>
-            <li>
-              <a class="links" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li><a class="links" href="#">Kontakt</a></li>
-          
-        
-
-        <a class="mail-h" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
+    <header class="container header">
+      <div class="main-nav">
+        <a class="webstudio" href="index.html"
+          >Web<span class="studio-h">Studio</span></a
         >
+        <ul class="menu">
+          <li><a class="links" href="#">Agencja</a></li>
+          <li>
+            <a class="links" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="links" href="#">Kontakt</a></li>
+        </ul>
+        <div class="nav-contacts">
+          <a class="mail-h" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
 
-        <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
-      </ul>
-      
+          <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
       </div>
-    
     </header>
 
-
     <main>
-      <div class="container">
       <section class="s1">
-        
-          <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <h1 class="h1">Efektywne rozwiązania dla waszego biznesu</h1>
 
-          <button class="button-main-page">
-            <span class="button-text">Zamów usługe</span>
-          </button>
-        </div>
+        <button class="button-main-page">
+          <span class="button-text">Zamów usługe</span>
+        </button>
       </section>
-      <section>
-        <div class="container">
+      <section class="container">
+        <div>
           <ul class="ul-main1">
             <li>
               <h3 class="Ipsum-h">LOREM IPSUM</h3>
@@ -90,7 +86,7 @@
           </ul>
         </div>
       </section>
-      <section class="container" >
+      <section class="container">
         <div class="sec3">
           <h2 class="offer">Czym się zajmujemy</h2>
           <ul class="ul-main2">
@@ -107,8 +103,8 @@
         </div>
       </section>
 
-      <section class="container">
-        <div class="sec4">
+      <section class="sec4">
+        <div class="container">
           <h2 class="team">Nasz zespół</h2>
           <ul class="ul-main">
             <li class="img-sec3">
@@ -135,19 +131,29 @@
         </div>
       </section>
     </main>
-    <footer class="container">
-      <div class="footer">
+    <footer class="footer">
+      <div class="container">
         <ul class="list-f">
-        <li><a class="webstudio-f" href="index.html"
-          ><span>Web</span><span class="studio-f">Studio</span></a
-        ></li>
-        <li><address class="address">m. Warszawa, Aleje Jerozolimskie 21</address></li>
-        <li><a class="link-footer" href="mailto:info@devstudio.com"
-          >info@devstudio.com</a
-        ></li>
+          <li>
+            <a class="webstudio-f" href="index.html"
+              ><span>Web</span><span class="studio-f">Studio</span></a
+            >
+          </li>
+          <li>
+            <address class="address">
+              m. Warszawa, Aleje Jerozolimskie 21
+            </address>
+          </li>
+          <li>
+            <a class="link-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
 
-        <li><a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+          <li>
+            <a class="tel-footer" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
