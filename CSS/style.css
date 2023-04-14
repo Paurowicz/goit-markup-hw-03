@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .main-nav {
   display: flex;
-  margin: 24px 0 25px 0;
+  margin: 24px 0px 25px 0px;
   gap: 93px;
 }
 
@@ -188,16 +188,19 @@ body {
   margin-bottom: 94px;
 }
 
+.text-img-index {
+  text-align: center;
+  padding: 0px 99px 0px 99px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .job {
   color: #757575;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  justify-content: center;
-  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .name {
@@ -205,12 +208,6 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 99px;
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 .button-main-page {
@@ -318,11 +315,16 @@ body {
   margin-bottom: 94px;
 }
 
-.portfolio-img-l {
+.portfolio-images-space {
   border-bottom: 1px solid #f5f4fa;
   border-left: 1px solid #f5f4fa;
   border-right: 1px solid #f5f4fa;
   box-sizing: border-box;
+  padding: 20px 24px 20px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .img-name {
@@ -330,10 +332,6 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 24px;
-  margin-top: 20px;
 }
 
 .img-type {
@@ -341,11 +339,6 @@ body {
   line-height: 1.87;
   color: #757575;
   letter-spacing: 0.03em;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 24px;
-  margin-top: 4px;
-  margin-bottom: 20px;
 }
 
 .offer {
